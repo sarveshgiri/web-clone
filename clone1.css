@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	font-family: Arial;
+	border:border-box;
+}
+
+/** navbar **/
+
+.navbar{
+	height: 60px;
+	background-color: #0f1111;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+}
+.nava-logo{
+	height: 50px;
+	width: 100px;
+
+}
+.logo{
+	background-image: url("logo1.jpg");
+	background-size: cover;
+	height: 50px;
+	width: 100px;
+}
+.border{
+	border-width: 1.5px solid transparent;
+}
+.border:hover{
+	border:1.5px solid white;
+}
+.first-add{
+	color: #cccccc;
+	font-size: 0.85rem;
+	margin-left: 15px;
+	margin-top: 12px;
+	
+}
+.sec-add{
+	font-size: 1rem;
+	margin-left: 5px;
+	
+}
+.icon{
+	display: flex;
+	align-items: center;
+}
+.search{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: pink;
+	width: 630px;
+	height: 40px;
+	border-radius: 4px;
+}
+.search:hover{
+	border:2px solid orange;
+}
+.search1{
+	background-color: #f3f3f3;
+	width: 50px;
+	text-align: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border:none;
+	
+}
+.search-bar{
+	width: 100%;
+	font-size: 1rem;
+	border:none;
+}
+.search-icon{
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	background-color: #febd68;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	color: #0f1111;
+}
+.nav-search{
+
+}
+span{
+	font-size: 0.7rem;
+}
+.nav-search1{
+	font-size: 0.9rem;
+	font-weight: 5px;
+}
+.cart{
+	font-size: 1.8rem;
+	margin-top: 10px;
+	display: flex;
+}
+.cart1{
+	font-size: 1rem;
+	margin-top: 9px;
+}
+.panel{
+	height: 40px;
+	background-color: #222f3d;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.panel-ops p{
+	display: inline;
+	margin-left: 15px;
+}
+.panel-ops{
+	width: 80%;
+	font-size: 0.85rem;
+}
+.panel-ops1{
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+.panel-icon{
+	display: flex;
+	margin-right: 5px;
+}
+.panel-icon p{
+	margin-left: 5px;
+}
+
+/**  style for hero **/
+
+.hero{
+	background-image: url("hero1.jpg");
+	height: 400px;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+}
+.hero-msg{
+	width: 85%;
+	height: 40px;
+	align-items: center;
+	background-color: white;
+	color: black;
+	display: flex;
+	justify-content: center;
+	font-size: 0.85rem;
+	margin-bottom: 25px;
+}
+.hero-msg a{
+	color: #007185;
+	font-size: 0.8rem;
+}
+
+/**style for box **/
+
+.box-section{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #e2e7e6;
+	justify-content: space-evenly;
+	margin-top: 10px;
+
+}
+.box{
+	background-color: white;
+	height: 350px;
+	width: 23%;
+	/*border:2px solid black;*/
+}
+.box1-img{
+	background-image: url("b1.jpg");
+	height: 240px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box-content{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.box-content p{
+	color: #007185;
+}
+.box2-img{
+	background-image: url("c1.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box3-img{
+	background-image: url("b2.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box4-img{
+	background-image: url("toy.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box5-img{
+	background-image: url("toy1.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box6-img{
+	background-image: url("f.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box7-img{
+	background-image: url("fur.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box8-img{
+	background-image: url("phone.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box9-img{
+	background-image: url("electronic.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box10-img{
+	background-image: url("home.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box11-img{
+	background-image: url("s1.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.box12-img{
+	background-image: url("fitnees.jpg");
+	height: 250px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
